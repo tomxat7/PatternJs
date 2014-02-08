@@ -4,6 +4,7 @@
 	* licensed under the MIT licenses. 
 */
 var PatternJs = {
+	
   status : 0,
 		
   Core: function (_C,_Type,_Type2){ 
@@ -77,28 +78,28 @@ var PatternJs = {
 					
 },	
 				
-	Pattern1: function (_C,_Type){
+   Pattern1: function (_C,_Type){
 		
-		if(!_C || !_Type) return false;
+    if(!_C || !_Type) return false;
 			
-			this.status = "Pattern1";
+       this.status = "Pattern1";
 			
-			if(this.Core(_C,_Type)) return true;
+    if(this.Core(_C,_Type)) return true;
 			
-			else return false;
+    else return false;
 			
-	},
+   },
 		
-	Pattern2: function (_C,_Type,_Type2){
+   Pattern2: function (_C,_Type,_Type2){
 		
-		if(!_C || !_Type  || !_Type2) return false;
+    if(!_C || !_Type  || !_Type2) return false;
 			
-			this.status = "Pattern2";
+       this.status = "Pattern2";
 			
-			if(this.Core(_C,_Type,_Type2)) return true;
+    if(this.Core(_C,_Type,_Type2)) return true;
 			
-			else return false;
+    else return false;
 			
-	}
+   }
 		
 };
